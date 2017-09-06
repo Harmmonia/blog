@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>littleOwl-Book Blog| Contact</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/models/Contact.js"></script>
+    <script type="text/javascript" src="js/views/contact.js"></script>
+
+</head>
+<body>
+	<!--header-top-starts-->
+	<div class="header-top">
+		<div class="container">
+			<div>
+				<ul class="login-pg">
+					<li><a href="login.html">Admin Login</a></li>
+				</ul>
+			</div>
+			<div class="head-main">
+				<a href="index.html"><img src="images/logo1.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	<!--header-top-end-->
+	<!--start-header-->
+	<div class="header">
+		<div class="container">
+			<div class="head">
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="articles.html">Articles</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html" class="active">Contact</a></li>
+					</ul>
+			</div>
+			<div class="header-right">
+			    <section>
+                    <div class="search-bar">
+                        <input type="text" name= "search" placeholder="Search"onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                        <input id="js-btn" type="submit" value="">
+                    </div>
+                </section>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+	<!--banner-starts-->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-top"></div>
+		</div>
+	</div>
+	<!--banner-end-->
+	<!----start-contact---->
+	<div class="contact">
+		<div class="container">
+			<div class="contact-top heading">
+				<h3>CONTACT</h3>
+			</div>
+			<div class="contact-bottom">
+				<div class="contact-text">
+					<div class="contact-left">
+						<h4>I'm happy to answer any questions you have! </h4>
+						<p>Just send a message in the form below and I will respond as soon as I can.</p>
+					</div>
+				
+					<div class="contact-right">
+						<form id="contactMsj" method="post">
+							<input placeholder="Name" name="name" type="text">
+							<input placeholder="Email"name="email" type="text">
+							<textarea id="txtarea" style="width:100%; margin: 15px 0 0 0" placeholder="Message" name="message"></textarea>
+							<div class="submit-btn">
+								<input type="submit" value="SUBMIT">
+							</div>
+						</form>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!----end-contact---->
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-text">
+				<p>© 2017 Little Owl. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!--footer-end-->
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>littleOwl-Book Blog| Articles</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+        <link href="css/style.css" rel='stylesheet' type='text/css' />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/models/Article.js"></script>
+        <script type="text/javascript" src="js/models/Articles.js"></script>
+        <script type="text/javascript" src="js/views/articles.js"></script>
+</head>
+    <body>
+	<!--header-top-starts-->
+	<div class="header-top">
+		<div class="container">
+			<div>
+				<ul class="login-pg">
+					<li><a href="login.html">Admin Login</a></li>
+				</ul>
+			</div>
+			<div class="head-main">
+				<a href="index.html"><img src="images/logo1.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	<!--header-top-end-->
+	<!--start-header-->
+	<div class="header">
+		<div class="container">
+			<div class="head">
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="articles.html" class="active">Articles</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+			</div>
+			<div class="header-right">
+			    <section>
+                    <div class="search-bar">
+                        <input type="text" name= "search" placeholder="Search"onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                        <input id="js-btn" type="submit" value="">
+                    </div>
+                </section>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+
+	<!--banner-starts-->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-top"></div>
+		</div>
+	</div>
+	<!--banner-end-->
+    <div class="aboutpage">
+        <div class="container">
+            <div class="aboutpage-top heading">
+                <h3>ARTICLES</h3>
+            </div>    
+                <section id="js-objects"></section> 
+                <ul id="pagination" class="pagination navbar-brand"></ul>
+        </div>
+    </div>
+
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-text">
+				<p>© 2017 Little Owl. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!--footer-end-->
+</body>
+</html>

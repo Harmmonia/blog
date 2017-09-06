@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>littleOwl-Book Admin| All Articles</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/views/admin.js"></script>
+	<script type="text/javascript" src="js/models/Article.js"></script>
+    <script type="text/javascript" src="js/models/Articles.js"></script>
+    <script type="text/javascript" src="js/views/editArticle.js"></script>
+    <script type="text/javascript" src="js/models/User.js"></script>
+    
+</head>
+<body style="display:none">
+	<!--header-top-starts-->
+	<div class="header-top">
+		<div class="container">
+			<div>
+				<ul class="login-pg">
+					<li><a href="index.html">Back to Blog</a></li>
+					<button id= "logout-btn">Logout</button>
+				</ul>
+			</div>
+			<div class="head-main">
+				<a href="index.html"><img src="images/logo1.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	<!--header-top-end-->
+	<!--start-header-->
+	<div class="header">
+		<div class="container">
+			<div class="head">
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="list.html" class="active">All Articles</a></li>
+						<li><a href="edit.html">Edit Articles</a></li>
+						<li><a href="admin.html">Create Article</a></li>
+					</ul>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+	<!----start-admin---->
+<div class="container">
+    <div class="aboutpage">
+        <div class="container">
+            <div class="aboutpage-top heading">
+                <h3>ALL ARTICLES</h3>
+            </div>    
+                <section id="js-objects"></section> 
+                <ul id="pagination" class="pagination navbar-brand"></ul>
+                
+	    </div>            
+	</div>
+</div>
+</body>
+</html>
